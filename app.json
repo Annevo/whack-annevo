@@ -1,0 +1,8 @@
+{
+  "name": "Whack-Annevo",
+  "description": "Server for Whack-Annevo",
+  "repository": "https://github.com/heroku/node-js-getting-started",
+  "logo": "http://node-js-sample.herokuapp.com/node.svg",
+  "keywords": ["node", "express", "static"],
+  "image": "heroku/nodejs"
+}

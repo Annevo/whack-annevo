@@ -1,0 +1,32 @@
+{
+  "name": "whack-annevo",
+  "version": "0.0.3",
+  "description": "Whack-Annevo code test",
+  "main": "./server/lib/index.js",
+  "engines": {
+    "node": "~6.0.0"
+  },
+  "scripts": {
+    "start": "node server/lib/index.js",
+    "start:server": "babel-watch server/src",
+    "start:client": "babel-watch client/src",
+    "compile": "./server/node_modules/.bin/babel --presets es2015 --presets stage-0 -d server/lib/ server/src/",
+    "prepublish": "npm run compile"
+  },
+  "repository": {
+    "url": "git+https://github.com/carlbarrdahl/babel-node-starter.git",
+    "type": "git"
+  },
+  "author": "Carl Barrdahl <carlbarrdahl@gmail.com> (github.com/carlbarrdahl/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/carlbarrdahl/babel-node-starter/issues"
+  },
+  "homepage": "https://github.com/carlbarrdahl/babel-node-starter#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "redux": "^3.6.0",
+    "redux-actions": "^0.12.0",
+    "socket.io": "^1.5.1"
+  }
+}
