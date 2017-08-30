@@ -13,7 +13,7 @@
     "test:disabled": "xo && ava",
     "test:watch": "ava --watch",
     "lint:disabled": "xo",
-    "prepublish": "npm run compile",
+    "prepublish": "npm run compile"
   },
   "repository": {
     "url": "git+https://github.com/carlbarrdahl/babel-node-starter.git",
